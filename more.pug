@@ -1,0 +1,10 @@
+doctype html
+
+html
+  head
+  body
+    - const styled = {"color": "yellow", "background-color": "black"}
+    div(style = styled)
+    p adding a picture
+    - const attributes = {"src": "photo.svg", "alt": "this is a picture"}
+    img&attributes(attributes)
